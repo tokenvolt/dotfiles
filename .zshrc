@@ -98,4 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:$HOME/.utils/bin
+export DISABLE_AUTO_TITLE='true'
+
 alias station='/usr/bin/git --git-dir=$HOME/.station/ --work-tree=$HOME'
