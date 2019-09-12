@@ -65,6 +65,7 @@ ZSH_THEME="ys-tokenvolt"
 plugins=(
   git
   asdf
+  ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,5 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:$HOME/.utils/bin
 export DISABLE_AUTO_TITLE='true'
+eval "$(direnv hook zsh)"
 
 alias station='/usr/bin/git --git-dir=$HOME/.station/ --work-tree=$HOME'
